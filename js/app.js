@@ -28,9 +28,9 @@ $(document).ready(function () {
         .mouseup( function () {
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
-    });
+    })
 
-$('.ryu').on('keydown', function(event) {
+        .on('keydown', function(event) {
         if (event.which == 88) {
             $('.ryu-ready').hide();
             $('.ryu-cool').show();
