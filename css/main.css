@@ -1,6 +1,7 @@
 body {
 	background-color: black;
-	font-family: 'comic-sans';
+	font-family: 'Comic Sans MS';
+	font-size: 50px;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 	width: 659px; 
 	height: 494px; 
 } 
-.ryu-ready, .ryu-throwing, .ryu-cool, .jquery, .streetfighter {
+.ryu-ready, .ryu-throwing, .ryu-cool, .jquery, .streetfighter, .instructions, .credits {
  	display: none; 
 }
  .ryu-ready {
@@ -34,20 +35,44 @@ body {
  	background-repeat: no-repeat; 
 }
 
+.jquery, .streetfighter {
+	margin: 50 auto;
+}
+
 .jquery {
-	background-image: url('http://newhiteboard.com/wp-content/uploads/2013/12/jquery-logo.png');
+	background-image: url('../images/jquery-logo.jpg');
+	width: 500px;
+	height: 172px;
+	background-size: contain;
 }
 
 .streetfighter {
-	background-image: url('http://upload.wikimedia.org/wikipedia/en/archive/e/e9/20121127171305!Street_Fighter_Logo.png');
+	width: 682px;
+	height: 314px;
+	margin: 0 25px 25px 0;
+	background-image: url('../images/sf-logo.png');
+	background-size: contain;
 }
 
 .text {
-	display:none;
-	position: absolute;
-	right: 130px;
-	height:600px;
-	width:500px;
+	left: 650px;
+	bottom: 20px;
+	height: 425px;
+	position: fixed;
+	width:600px;
+}
+
+.credits {
+	color: red;
+}
+
+.instructions #top {
+	float: left;
+	display: block;
+}
+
+.instructions #bottom {
+	float: right;
 }
 
 .hadouken { 
