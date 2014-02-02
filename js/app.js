@@ -48,10 +48,10 @@ $('body').on('keydown', function(event) {
     }
 
     function intro() {
-         // $('.streetfighter').fadeToggle().delay(3000).fadeToggle().delay(1000),
-         //     $('.credits').fadeToggle().delay(3000).fadeToggle().delay(1000),
-              // $('.jquery').fadeToggle().delay(3000).fadeToggle().delay(1000),
-                // $('.instructions').fadeIn();
+         // $('.text:first-child').fadeToggle().delay(3000).fadeToggle().delay(1000);
+         //     .next().fadeToggle().delay(3000).fadeToggle().delay(1000)
+         //      .next().fadeToggle().delay(3000).fadeToggle().delay(1000)
+         //        .next().fadeIn();
     }
 
 
