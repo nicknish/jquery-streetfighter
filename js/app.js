@@ -1,5 +1,6 @@
 $(document).ready(function () {
     intro();
+    // $('.instructions').fadeIn();
     $('.ryu').mouseover(function () {
         $('.ryu-still').hide();
         $('.ryu-ready').show();
@@ -48,10 +49,10 @@ $('body').on('keydown', function(event) {
     }
 
     function intro() {
-         // $('.text:first-child').fadeToggle().delay(3000).fadeToggle().delay(1000);
-         //     .next().fadeToggle().delay(3000).fadeToggle().delay(1000)
-         //      .next().fadeToggle().delay(3000).fadeToggle().delay(1000)
-         //        .next().fadeIn();
+         $('.text :first-child').fadeToggle().delay(3000).fadeToggle().delay(1000)
+             .next().delay(4000).fadeToggle().delay(3000).fadeToggle().delay(1000)
+              .next().delay(8000).fadeToggle().delay(3000).fadeToggle().delay(1000)
+                .next().delay(12000).fadeIn();
     }
 
 

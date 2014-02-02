@@ -1,7 +1,12 @@
 body {
 	background-color: black;
-	font-family: 'Comic Sans MS';
-	font-size: 50px;
+	font-family: 'comical';
+	font-size: 45px;
+}
+
+@font-face {
+	font-family: 'comical';
+	src:url('../fonts/animeace2_reg.otf');
 }
 
 .container {
@@ -36,43 +41,52 @@ body {
 }
 
 .jquery, .streetfighter {
-	margin: 50 auto;
+	background-size: contain;
+}
+
+.jquery, .credits {
+	margin-top: 100px;
 }
 
 .jquery {
 	background-image: url('../images/jquery-logo.jpg');
-	width: 500px;
-	height: 172px;
-	background-size: contain;
+	width: 600px;
+	height: 200px;
 }
 
 .streetfighter {
-	width: 682px;
+	margin-top: 45px;
+	width: 660px;
 	height: 314px;
-	margin: 0 25px 25px 0;
-	background-image: url('../images/sf-logo.png');
-	background-size: contain;
+	background-image: url('../images/sf-logo.jpg');
 }
 
 .text {
 	left: 650px;
-	bottom: 20px;
-	height: 425px;
+	bottom: 30px;
+	height: 500px;
 	position: fixed;
 	width:600px;
 }
 
 .credits {
 	color: red;
+	margin-top: 150px;
+}
+
+.instructions {
+	font-size: 18pt;
+	line-height: 50px;
 }
 
 .instructions #top {
-	float: left;
 	display: block;
+	max-width: 300px;
 }
 
 .instructions #bottom {
-	float: right;
+	max-width: 300px;
+	margin-left: 300px;
 }
 
 .hadouken { 
