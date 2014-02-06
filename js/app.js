@@ -57,3 +57,16 @@ $('body').on('keydown', function(event) {
 
 
 });
+
+/* Questions 
+
+1) How do I deal with two simultaneous events (keypress + mouseover)?
+   The ready.gif is being played and pushed below, while the 
+   cool.gif is playing.
+
+2) How do I layer the Hadouken animation above text and images?
+
+3) Is there a better way to animate the intro rather than tie fadeToggle,
+	next() and delay?
+
+*/
